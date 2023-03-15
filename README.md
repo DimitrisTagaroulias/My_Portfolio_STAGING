@@ -17,7 +17,7 @@ Purpose:
 
 Live version URL:
 
-- https://crypto-dashboard-live-dimitristagaroulias.vercel.app
+- https://dimitristagaroulias.github.io/My-Portfolio
 
 ## Technologies
 
