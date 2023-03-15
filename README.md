@@ -47,4 +47,4 @@ On Terminal:
 - Create a service
 - Create template
 
-**_NOTE 2:_** In file src/components/Contact.js on line 11 you have to to put your serviceID,templateID, userID that you have created on www.emailjs.com
+**_NOTE 2:_** In file "src/components/Contact.js" on line 11 you have to to put your serviceID,templateID, userID that you have created on www.emailjs.com
