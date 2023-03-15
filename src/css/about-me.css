@@ -1,0 +1,44 @@
+/**** MY INFO ****/
+/* .my-info --> in App.js*/
+
+.my-info {
+  position: relative;
+  background-color: white;
+  z-index: 2;
+}
+
+/**** ABOUT ME ****/
+.about-me-container {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+}
+
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-img {
+  width: 16rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 1px solid var(--primary-blue);
+}
+
+.about-heading {
+  color: var(--primary-blue);
+  text-transform: uppercase;
+}
+
+@media (max-width: 468px) {
+  .profile-img {
+    width: 10rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .about-me-container {
+    text-align: center;
+  }
+}

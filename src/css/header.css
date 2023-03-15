@@ -1,0 +1,74 @@
+/**** HEADER ****/
+
+.header-wraper {
+  position: relative;
+  background: url(../images/background_1920-1280_fixed_strong_black.jpg)
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 2;
+}
+
+.main-info h1 {
+  color: var(--primary-teal);
+  text-transform: uppercase;
+}
+
+/**** TYPED TEXT ****/
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-white);
+}
+
+@media (max-width: 767.98px) {
+  .main-info h1 {
+    font-size: 1.7rem !important;
+  }
+
+  .typed-text {
+    font-size: 1.3rem !important;
+  }
+}
+
+/**** HEADER MAIN OFFER BUTTON ****/
+
+.btn-main-offer {
+  border: 1px solid var(--primary-dark-blue);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.625rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+}
+
+.btn-main-offer:link,
+.btn-main-offer:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: var(--primary-blue);
+  color: var(--primary-white);
+  transition: 0.2s ease-in-out;
+}
+
+.btn-main-offer:active {
+  background-color: var(--primary-blue);
+  transition: 0.05s ease-in-out;
+}

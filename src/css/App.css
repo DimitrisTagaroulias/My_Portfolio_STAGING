@@ -1,0 +1,57 @@
+@import "scrollbar.css";
+@import "navbar.css";
+@import "header.css";
+@import "Particles.css";
+@import "about-me.css";
+@import "services.css";
+@import "experience.css";
+@import "portfolio.css";
+@import "testimonials.css";
+@import "contact.css";
+@import "footer.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+:root {
+  --primary-white: #fff;
+  --primary-light-gray: #f4f4f4;
+  --primary-gray: #ccd1d9;
+  --primary-darker-gray: #aeb3b9;
+  --primary-dark-gray: #666666;
+  --primary-teal: rgb(60, 184, 255);
+  /* --primary-darker-teal-01: rgb(31, 173, 255); 
+  --primary-darker-teal-02: rgb(29, 164, 243); */
+  --primary-darker-teal-03: rgb(19, 149, 224);
+  --primary-blue: rgb(0, 132, 209);
+  --primary-soft-light-blue: rgb(211, 231, 255);
+  --primary-success-green: green;
+  --primary-error-red: rgb(233, 0, 0);
+  --primary-dark-blue: rgb(0, 101, 160);
+  --primary-dark: rgb(52, 58, 64);
+  --primary-dark-boot5: #212529;
+  --primary-black: #000000;
+  --primary-transparent-black: rgba(0, 0, 0, 0.7);
+  --primary-black-lighter: rgb(19, 19, 19);
+  /* --primary-black-dark: rgb(14, 14, 14);
+  --primary-black-darker: rgb(8, 8, 8);  */
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300 !important;
+}
+
+/**** custom text-xs-end****/
+@media (max-width: 575px) {
+  .text-xs-end {
+    text-align: right;
+  }
+}

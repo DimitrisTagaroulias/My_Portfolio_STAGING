@@ -1,0 +1,51 @@
+/**** FOOTER ****/
+
+.footer {
+  position: relative;
+  padding: 3rem;
+  padding-bottom: 1.5rem;
+  background: var(--primary-black-lighter);
+  color: var(--primary-dark-gray);
+  z-index: 2;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-gray);
+  user-select: none;
+}
+#phone-number {
+  user-select: unset;
+}
+
+#footer-email {
+  overflow: hidden;
+  overflow-wrap: break-word;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-blue);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+@media (min-width: 380px) and (max-width: 575px) {
+  .site-map-column {
+    padding-top: 0.4rem;
+    width: auto !important;
+  }
+
+  .site-map-column:last-child {
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .footer {
+    padding: 3rem 2rem 1.5rem;
+  }
+}

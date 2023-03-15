@@ -1,0 +1,12 @@
+/**** PARTICLES JS ****/
+.particles-canvas {
+  position: relative;
+
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .particles-canvas {
+    display: none;
+  }
+}
